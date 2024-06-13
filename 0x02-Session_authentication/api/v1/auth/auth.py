@@ -36,7 +36,7 @@ class Auth:
     def current_user(self, request=None) -> TypeVar('User'):
         """current user is recieved from req"""
         return None
-    
+
     def session_cookie(self, request=None) -> str:
         """retrieve value of the cookie named SESSION_NAME
         """
